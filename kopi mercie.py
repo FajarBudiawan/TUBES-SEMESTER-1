@@ -25,7 +25,7 @@ menu = {
 def tampilkan_menu():
     print("=" * 38)
     print("   Selamat Datang di Coffe Mercie")
-    print("Daftar Menu Coffe Mercie:")
+    print("Daftar Menu :")
     for i, item in menu.items():
         print(f"{i}. {item['nama']:<22} ({item['harga']} IDR)")
     print("=" * 38)
